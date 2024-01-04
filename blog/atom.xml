@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ztrdiamond.github.io/zanixondb-docs/blog</id>
+    <id>https://ztrdiamond.github.io/zndb-docs/zndb-docs/blog</id>
     <title>ZanixonDB Blog</title>
     <updated>2023-11-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ztrdiamond.github.io/zanixondb-docs/blog"/>
+    <link rel="alternate" href="https://ztrdiamond.github.io/zndb-docs/zndb-docs/blog"/>
     <subtitle>ZanixonDB Blog</subtitle>
-    <icon>https://ztrdiamond.github.io/zanixondb-docs/img/zn-logo.png</icon>
+    <icon>https://ztrdiamond.github.io/zndb-docs/zndb-docs/img/zn-logo.png</icon>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
         <id>first-blog-post</id>
-        <link href="https://ztrdiamond.github.io/zanixondb-docs/blog/first-blog-post"/>
+        <link href="https://ztrdiamond.github.io/zndb-docs/zndb-docs/blog/first-blog-post"/>
         <updated>2023-11-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ajarin dong puhh sepuhh]]></summary>
         <content type="html"><![CDATA[<p>Ajarin dong puhh sepuhh

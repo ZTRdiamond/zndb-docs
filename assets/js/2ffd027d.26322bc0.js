@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[206],{9043:a=>{a.exports=JSON.parse('{"label":"bapakkugarena","permalink":"/zndb-docs/blog/tags/bapakkugarena","allTagsPath":"/zndb-docs/blog/tags","count":1}')}}]);

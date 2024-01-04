@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[74],{6828:e=>{e.exports=JSON.parse('{"label":"freefire","permalink":"/blog/tags/freefire","allTagsPath":"/blog/tags","count":1}')}}]);
