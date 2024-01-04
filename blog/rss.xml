@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>ZanixonDB Blog</title>
+        <link>https://ztrdiamond.github.io/zanixondb-docs/blog</link>
+        <description>ZanixonDB Blog</description>
+        <lastBuildDate>Thu, 30 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>id</language>
+        <item>
+            <title><![CDATA[First Blog Post]]></title>
+            <link>https://ztrdiamond.github.io/zanixondb-docs/blog/first-blog-post</link>
+            <guid>first-blog-post</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ajarin dong puhh sepuhh]]></description>
+            <content:encoded><![CDATA[<p>Ajarin dong puhh sepuhh
+Akumah masih pemula puhh sepuhh
+Ajarin pliss puhh sepuhh masih pemula akumahh
+Ajarin aku dong puhh sepuhh ajg ajarin bgst</p><div class="theme-admonition theme-admonition-info alert alert--info admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Jangan baca teks di bawah</div><div class="admonitionContent_S0QG"><p>Yang baca kek monyet awokaowk</p></div></div>]]></content:encoded>
+            <category>info</category>
+            <category>stress</category>
+            <category>freefire</category>
+            <category>bapakkugarena</category>
+        </item>
+    </channel>
+</rss>

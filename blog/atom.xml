@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ztrdiamond.github.io/zanixondb-docs/blog</id>
+    <title>ZanixonDB Blog</title>
+    <updated>2023-11-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ztrdiamond.github.io/zanixondb-docs/blog"/>
+    <subtitle>ZanixonDB Blog</subtitle>
+    <icon>https://ztrdiamond.github.io/zanixondb-docs/img/zn-logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>first-blog-post</id>
+        <link href="https://ztrdiamond.github.io/zanixondb-docs/blog/first-blog-post"/>
+        <updated>2023-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ajarin dong puhh sepuhh]]></summary>
+        <content type="html"><![CDATA[<p>Ajarin dong puhh sepuhh
+Akumah masih pemula puhh sepuhh
+Ajarin pliss puhh sepuhh masih pemula akumahh
+Ajarin aku dong puhh sepuhh ajg ajarin bgst</p><div class="theme-admonition theme-admonition-info alert alert--info admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Jangan baca teks di bawah</div><div class="admonitionContent_S0QG"><p>Yang baca kek monyet awokaowk</p></div></div>]]></content>
+        <author>
+            <name>ZTRdiamond</name>
+            <uri>https://github.com/ZTRdiamond</uri>
+        </author>
+        <category label="info" term="info"/>
+        <category label="stress" term="stress"/>
+        <category label="freefire" term="freefire"/>
+        <category label="bapakkugarena" term="bapakkugarena"/>
+    </entry>
+</feed>
