@@ -5,14 +5,14 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const organizationName = "ztrdiamond";
-const projectName = "zanixondb-docs";
+const projectName = "zndb-docs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "ZanixonDB",
   tagline: "A simple JSON database with ease use, You can use this database for your small games based on nodejs or you can use this database for other usage.",
-  url: `https://ztrdiamond.github.io/zanixondb-docs`,
-  baseUrl: `/`,
+  url: `https://ztrdiamond.github.io/zndb-docs`,
+  baseUrl: `/zndb-docs`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/zn-logo.png",
@@ -68,7 +68,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: `https://github.com/${organizationName}/zanixondb-docs`,
+            href: `https://github.com/${organizationName}/zndb-docs`,
             label: "GitHub",
             position: "left",
           },
