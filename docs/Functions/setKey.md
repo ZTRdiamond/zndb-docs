@@ -19,7 +19,7 @@ db.storage(key, newKey, table?, dbName?);
 | dbName | `string` | Database path id paramater | `false` |
 
 ## Example(s)
-This will create storage files on your storage folder
+This will change your data key
 ```js title="index.js"
 // set new key for "level" from "default" storage
 db.setKey("level", "rank");
