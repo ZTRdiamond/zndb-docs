@@ -3,23 +3,27 @@ sidebar_position: 4
 --- 
 
 # setKey
-This function is used to create custom storage files according to your needs, with this function you can easily determine the storage path with only the database id.
+This function is used to change the key of a json object in storage specifically
 
 ## Usage
 ```js
-db.storage({paths});
+db.storage(key, newKey, table?, dbName?);
 ```
 
 ## Parameters
 | Param | Type | Desc | Required |
 |---|---|---|---|
-| paths | `object` | Where you set the storage path | `true` |
+| key | `string` | the old key to be replaced | `true` |
+| newKey | `string` | A new key will replace it | `true` |
+| table | `string` | Param to access nested object, you can fill it using `null` to skip this param | `false` |
+| dbName | `string` | Database path id paramater | `false` |
 
 ## Example(s)
 This will create storage files on your storage folder
 ```js title="index.js"
-db.storage({
-	storageOne: "storageOne.json",
-	storageTwo: "storageTwo.json"
-})
+// set new key for "level" from "default" storage
+db.setKey("level", "rank");
+
+// set new key for "money" from "storageOne" storage
+db.setKey("money", "dollar", null, "storageOne");
 ```
