@@ -11,8 +11,8 @@ const projectName = "zndb-docs";
 const config = {
   title: "ZanixonDB",
   tagline: "A simple JSON database with ease use, You can use this database for your small games based on nodejs or you can use this database for other usage.",
-  url: `https://ztrdiamond.github.io/zndb-docs`,
-  baseUrl: `/zndb-docs`,
+  url: `https://zndb.zanixon.xyz`,
+  baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/zn-logo.png",
