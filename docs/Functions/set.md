@@ -12,12 +12,12 @@ db.set(name, value, table, dbName);
 ```
 
 ## Parameters
-| Param | Type | Desc | Required |
-|---|---|---|---|
-| name | `string` | data key to access or obtain the data to be stored. | `true` |
-| value | `string` | param to place the value to be stored | `true` |
-| table | `string` | Param to access nested object, you can fill it using `null` to skip this param | `false` |
-| dbName | `string` | Database path id paramater | `false` |
+| Param | Type | Default | Desc | Required |
+|---|---|---|---|---|
+| name | `string` | `string` | data key to access or obtain the data to be stored. | `true` |
+| value | `string` | `string` | param to place the value to be stored | `true` |
+| table | `string` | `null` | Param to access nested object, you can fill it using `null` to skip this param | `false` |
+| dbName | `string` | `null` | Database path id paramater | `false` |
 
 ## Example(s)
 This will save data

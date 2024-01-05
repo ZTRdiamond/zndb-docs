@@ -12,9 +12,9 @@ db.storageInit({options});
 ```
 
 ## Parameters
-| Param | Type | Desc | Required |
+| Param | Type | Default | Desc | Required |
 |---|---|---|---|
-| options | `object` | Where you set the storage directory | `true` |
+| options | `object` | `null` | Where you set the storage directory | `true` |
 
 ## Example(s)
 This will create storage directory.

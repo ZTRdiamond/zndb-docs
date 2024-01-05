@@ -11,12 +11,12 @@ db.storage(key, newKey, table?, dbName?);
 ```
 
 ## Parameters
-| Param | Type | Desc | Required |
-|---|---|---|---|
-| key | `string` | the old key to be replaced | `true` |
-| newKey | `string` | A new key will replace it | `true` |
-| table | `string` | Param to access nested object, you can fill it using `null` to skip this param | `false` |
-| dbName | `string` | Database path id paramater | `false` |
+| Param | Type | Default | Desc | Required |
+|---|---|---|---|---|
+| key | `string` | `string` | the old key to be replaced | `true` |
+| newKey | `string` | `string` | A new key will replace it | `true` |
+| table | `string` | `null` | Param to access nested object, you can fill it using `null` to skip this param | `false` |
+| dbName | `string` | `null` | Database path id paramater | `false` |
 
 ## Example(s)
 This will change your data key

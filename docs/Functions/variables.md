@@ -12,10 +12,10 @@ db.variables({data}, dbName);
 ```
 
 ## Parameters
-| Param | Type | Desc | Required |
-|---|---|---|---|
-| data | `object` | Setup your vaeiables here | `true` |
-| dbName | `string` | Your database path id | `false` |
+| Param | Type | Default | Desc | Required |
+|---|---|---|---|---|
+| data | `object` | `object` | Setup your vaeiables here | `true` |
+| dbName | `string` | `null` | Your database path id | `false` |
 
 ## Example(s)
 This will create variables on your storage file

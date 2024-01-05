@@ -12,9 +12,9 @@ db.storage({paths});
 ```
 
 ## Parameters
-| Param | Type | Desc | Required |
-|---|---|---|---|
-| paths | `object` | Where you set the storage path | `true` |
+| Param | Type | Default | Desc | Required |
+|---|---|---|---|---|
+| paths | `object` | `object` | Where you set the storage path | `true` |
 
 ## Example(s)
 This will create storage files on your storage folder
