@@ -53,6 +53,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: "ZanixonDB",
         logo: {
@@ -66,7 +71,6 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: `https://github.com/${organizationName}/zndb-docs`,
             label: "GitHub",
@@ -103,10 +107,6 @@ const config = {
           {
             title: "Others",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "GitHub",
                 href: `https://github.com/${organizationName}`,
