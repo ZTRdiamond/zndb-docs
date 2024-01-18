@@ -1,8 +1,3 @@
----
-sidebar_position: 1 
-title: Introduction
----
-
 # ZanixonDB
 A simple JSON database with ease use, You can use this database for your small games based on nodejs or you can use this database for other usage.
 
