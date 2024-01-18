@@ -1,118 +1,20 @@
-# Deploy Docusaurus website to GitHub Pages using GitHub Actions
+---
+sidebar_position: 1 
+title: Introduction
+---
 
-This repository is an example of deploying a Docusaurus website to GitHub Pages using GitHub Actions.
+# ZanixonDB
+A simple JSON database with ease use, You can use this database for your small games based on nodejs or you can use this database for other usage.
 
-## Configuring the GitHub repository
+The write and read speed is depending on the device you use, this module using fs to write and read data on JSON.
 
-It uses the _new_ GitHub Pages experience with GitHub Actions to deploy the website.
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ZTRdiamond/zanixon.db/main?style=for-the-badge) ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/ZTRdiamond%20/zanixon.db?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/ZTRdiamond/zanixon.db?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Author-ZTRdiamond-blue?style=for-the-badge&logo=github&color=01bdff)
 
-Enable this experience in _GitHub.com -> Repository -> Settings -> Pages -> Build and deployment -> Source_ by selecting _GitHub Actions_ instead of the legacy _Deploy from a branch_ option.
+# Module Installation
+Install the module using `npm` and type this in your terminal.
 
-In _GitHub.com -> Repository -> Settings -> Environments_ you should see a GitHub Environment named `github-pages`.
-
-## Configuring Docusaurus
-
-Generate a Docusuarus website using the following command:
-
-```shell
-yarn create docusaurus <folder-name> classic --typescript
+```bash
+npm i zanixon.db
 ```
 
-Make the following changes to the `docusaurus.config.js` configuration file:
-
-1. Create the constants `organizationName` and `projectName`
-   ```javascript
-   const organizationName = "<github-organization-name>";
-   const projectName = "<repository-name>";
-   ```
-1. Set the URL
-   ```javascript
-   const config = {
-     // (...)
-     url: `https://${organizationName}.github.io`,
-   };
-   const baseUrl = /${projectName}/`;
-   ```
-1. Configure the base URL
-   ```javascript
-   const config = {
-     // (...)
-     baseUrl: `/${projectName}/`,
-   };
-   ```
-1. Set the `organizationName` and `projectName` options
-
-   ```javascript
-   const organizationName = "<github-organization-name>";
-   const projectName = "<repository-name>";
-
-   const config = {
-     // (...)
-     organizationName,
-     projectName,
-   };
-   ```
-
-1. Configure the blog and docs edit URLs
-   ```javascript
-   const config = {
-     // (...)
-     presets: [
-       [
-         "classic",
-         /** @type {import('@docusaurus/preset-classic').Options} */
-         ({
-           // (...)
-           docs: {
-             // (...)
-             editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-           },
-           blog: {
-             // (...)
-             editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-           },
-         }),
-       ],
-     ],
-   };
-   ```
-
-## Adding a GitHub Actions deployment workflow
-
-Use a GitHub Actions workflow template for GitHub Pages from the [`actions/starter-workflows`](https://github.com/actions/starter-workflows) repository. Place it in `.github/workflows/<workflow-name>.yml`.
-
-Add steps for building the website before the GitHub Pages actions are executed and specify the `path` to the `actions/upload-pages-artifact`:
-
-```yaml
-# (...)
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      # 👇 Build steps
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-          cache: yarn
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile --non-interactive
-      - name: Build
-        run: yarn build
-      # 👆 Build steps
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # 👇 Specify build output path
-          path: build
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-```
+I do not recommend that you use this module to be used as the main database and to store large data, it is feared that the data you store will be corrupt or damaged and therefore I also create database files that can be separated to be more flexible and not accumulate data in just one file.
